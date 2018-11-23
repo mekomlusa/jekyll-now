@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Hi, call me Lily here please. I'm a foodie, an amateur coder, and a avaricious reader. I used to be a poet and a writer, but as time goes by I sort of let my writing talent go. I share two cats, Ben and Rose, with my hubby **BAN DAI**.
+Hi, call me Lily here please. I'm a foodie, an amateur coder, and an avaricious reader. I used to be a poet and a writer, but as time goes by I sort of let my writing talent go. I share two cats, Ben and Rose, with my hubby **BAN DAI**.
 
 ### More Information
 
