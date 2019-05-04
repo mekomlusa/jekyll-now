@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Hey you! Hit Database less!
+author: Lily_Lin
 ---
 
 It's almost at the conclusion of my web development internship, so I'm in a bittersweet mode right now. I thought that I was meant to be a data scientist (and yes I still love data munging, that never changes), but I had so much fun with web backend (aka [CRUD](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete)) as well.
