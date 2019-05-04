@@ -13,7 +13,7 @@ layout: default
     Written on {{ page.date | date: "%B %e, %Y" }}
   </div>
   
-  {% if author.bio %}
+  {% if page.author %}
       {% include author_bio.html %}
   {% endif %}
 
