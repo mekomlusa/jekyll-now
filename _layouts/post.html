@@ -12,6 +12,10 @@ layout: default
   <div class="date">
     Written on {{ page.date | date: "%B %e, %Y" }}
   </div>
+  
+  {% if author.bio %}
+      {% include author_bio.html %}
+  {% endif %}
 
   {% include disqus.html %}
 </article>
