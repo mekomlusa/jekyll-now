@@ -2,19 +2,17 @@
 <hr>
 <span>
    <div>
-      # include author image if there is an author image 
-      {% if author.image %}
-         <img src="{{author.image}}" class="author-img">
+      {% if site.data.authors[page.author].image %}
+         <img src="{{site.data.authors[page.author].image}}" class="author-img">
       {% endif %}
       <div>
-         <h3> {{author.name}} &nbsp;
-            # include link to author's twitter if they have provided a twitter account
-           {% if author.twitter %}
-              <a href="{{author.twitter}}" class="icon fa-twitter"><span class="label">Twitter</span></a> 
+         <h3> {{site.data.authors[page.author].name}} &nbsp;
+           {% if site.data.authors[page.author].twitter %}
+              <a href="{{site.data.authors[page.author].twitter}}" class="icon fa-twitter"><span class="label">Twitter</span></a> 
             {% endif %}
           </h3>
       </div>
    </div>
-   {{ author.bio }}
+   {{ site.data.authors[page.author].bio }}
 </span>
 <br>
